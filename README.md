@@ -1,0 +1,2 @@
+# eco-tips-blog
+Atividades de Extensão: INTEGRAÇÃO DE COMPETÊNCIAS PARA TRANSFORMAR O EU, O OUTRO E A SOCIEDADE
