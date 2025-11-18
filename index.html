@@ -8,47 +8,60 @@
 </head>
 <body>
   <header>
-    <h1>EcoTips em Casa 🌱</h1>
-    <p>Dicas de sustentabilidade para transformar sua casa e a cidade</p>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#posts">Posts</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>EcoTips em Casa 🌱</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#dicas">Dicas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main id="home">
-    <section id="posts">
-      <h2>Posts Recentes</h2>
-      <div class="post-card">
-        <h3>Separação de Resíduos</h3>
-        <p>Aprenda a separar corretamente o lixo e como isso ajuda a cidade a ser mais limpa e sustentável.</p>
-        <button class="like-btn">❤️ Curtir</button>
-      </div>
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Transforme sua casa e a cidade</h2>
+      <p>Dicas práticas de sustentabilidade para você aplicar no dia a dia</p>
+      <a href="#dicas" class="btn">Ver Dicas</a>
+    </div>
+  </section>
 
-      <div class="post-card">
-        <h3>Economia de Água</h3>
-        <p>Pequenas mudanças no uso da água podem fazer uma grande diferença para o meio ambiente.</p>
-        <button class="like-btn">❤️ Curtir</button>
-      </div>
-
-      <div class="post-card">
-        <h3>Reaproveitamento de Materiais</h3>
-        <p>Descubra formas criativas de reaproveitar materiais que iriam para o lixo.</p>
-        <button class="like-btn">❤️ Curtir</button>
-      </div>
-    </section>
-
-    <section id="sobre">
+  <section id="sobre">
+    <div class="container">
       <h2>Sobre o Projeto</h2>
       <p>O EcoTips em Casa é uma iniciativa do Projeto de Extensão ODS 11 para incentivar práticas sustentáveis dentro de casa e impactar a comunidade online.</p>
       <p>Autora: Letícia Vitória</p>
-    </section>
+    </div>
+  </section>
 
-    <section id="contato">
+  <section id="dicas">
+    <div class="container">
+      <h2>Dicas Sustentáveis</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Separação de Resíduos</h3>
+          <p>Aprenda a separar corretamente o lixo e como isso ajuda a cidade a ser mais limpa e sustentável.</p>
+          <button class="like-btn">❤️ Curtir</button>
+        </div>
+        <div class="card">
+          <h3>Economia de Água</h3>
+          <p>Pequenas mudanças no uso da água podem fazer grande diferença para o meio ambiente.</p>
+          <button class="like-btn">❤️ Curtir</button>
+        </div>
+        <div class="card">
+          <h3>Reaproveitamento de Materiais</h3>
+          <p>Descubra formas criativas de reaproveitar materiais que iriam para o lixo.</p>
+          <button class="like-btn">❤️ Curtir</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
       <h2>Contato</h2>
       <form onsubmit="return false;">
         <label>Nome:</label>
@@ -59,11 +72,13 @@
         <textarea placeholder="Sua mensagem"></textarea>
         <button type="submit">Enviar</button>
       </form>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 EcoTips em Casa</p>
+    <div class="container">
+      <p>© 2025 EcoTips em Casa</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
