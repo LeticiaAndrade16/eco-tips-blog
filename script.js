@@ -1,6 +1,8 @@
+
 window.onload = () => {
-  console.log("Blog EcoTips carregado!");
+  console.log("Site EcoTips carregado!");
 };
+
 
 const likeButtons = document.querySelectorAll('.like-btn');
 likeButtons.forEach(button => {
